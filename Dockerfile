@@ -9,4 +9,4 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
-CMD [ "jupyter", "notebook" , "--ip=0.0.0.0", "--no-broswer", "--NotebookApp.token=''", "--NotebookApp.password=''"]
+CMD [ "jupyter", "notebook" , "--ip=0.0.0.0", "--NotebookApp.token=''", "--NotebookApp.password=''"]
